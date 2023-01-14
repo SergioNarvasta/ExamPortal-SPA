@@ -10,12 +10,14 @@ describe('NavbarComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ NavbarComponent ]
     })
+
     .compileComponents();
   });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(NavbarComponent);
     component = fixture.componentInstance;
+    
     fixture.detectChanges();
   });
 
